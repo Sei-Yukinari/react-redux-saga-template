@@ -7,7 +7,7 @@
 node_modules
 .idea
 
-dist/bundle.js
-dist/index.html
+#dist/bundle.js
+#dist/index.html
 npm-debug.log
 
