@@ -32789,49 +32789,45 @@
 	          "Counter example"
 	        ),
 	        React.createElement(
-	          "p",
+	          "h3",
+	          null,
+	          "Clicked: ",
+	          this.props.count.counter,
+	          " times"
+	        ),
+	        React.createElement(
+	          _reactBootstrap.ButtonToolbar,
 	          null,
 	          React.createElement(
-	            "h3",
-	            null,
-	            "Clicked: ",
-	            this.props.count.counter,
-	            " times"
-	          ),
-	          React.createElement(
-	            _reactBootstrap.ButtonToolbar,
-	            null,
+	            _reactBootstrap.ButtonGroup,
+	            { bsSize: "large" },
 	            React.createElement(
-	              _reactBootstrap.ButtonGroup,
-	              { bsSize: "large" },
-	              React.createElement(
-	                _reactBootstrap.Button,
-	                { bsStyle: "success",
-	                  className: "increment",
-	                  onClick: this.props.count.onIncrement },
-	                "+"
-	              ),
-	              React.createElement(
-	                _reactBootstrap.Button,
-	                { bsStyle: "primary",
-	                  className: "decrement",
-	                  onClick: this.props.count.onDecrement },
-	                "-"
-	              ),
-	              React.createElement(
-	                _reactBootstrap.Button,
-	                { bsStyle: "warning",
-	                  className: "incrementIfOdd",
-	                  onClick: this.props.count.onIncrementIfOdd },
-	                "IncrementIfOdd if odd"
-	              ),
-	              React.createElement(
-	                _reactBootstrap.Button,
-	                { bsStyle: "danger",
-	                  className: "incrementAsync",
-	                  onClick: this.props.count.onIncrementAsync },
-	                "IncrementAsync async"
-	              )
+	              _reactBootstrap.Button,
+	              { bsStyle: "success",
+	                className: "increment",
+	                onClick: this.props.count.onIncrement },
+	              "+"
+	            ),
+	            React.createElement(
+	              _reactBootstrap.Button,
+	              { bsStyle: "primary",
+	                className: "decrement",
+	                onClick: this.props.count.onDecrement },
+	              "-"
+	            ),
+	            React.createElement(
+	              _reactBootstrap.Button,
+	              { bsStyle: "warning",
+	                className: "incrementIfOdd",
+	                onClick: this.props.count.onIncrementIfOdd },
+	              "IncrementIfOdd if odd"
+	            ),
+	            React.createElement(
+	              _reactBootstrap.Button,
+	              { bsStyle: "danger",
+	                className: "incrementAsync",
+	                onClick: this.props.count.onIncrementAsync },
+	              "IncrementAsync async"
 	            )
 	          )
 	        )
