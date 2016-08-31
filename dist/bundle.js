@@ -32490,18 +32490,7 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	var _marked = [rootSaga].map(regeneratorRuntime.mark); // import { takeEvery, delay } from "redux-saga";
-
-	// import {
-	//     INCREMENT_ASYNC,
-	//     increment
-	// } from "../actions";
-
-
-	// export function* incrementAsync() {
-	//   yield call( delay, 1000 );
-	//   yield put( increment() );
-	// }
+	var _marked = [rootSaga].map(regeneratorRuntime.mark);
 
 	function rootSaga() {
 	  return regeneratorRuntime.wrap(function rootSaga$(_context) {
