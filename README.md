@@ -17,3 +17,6 @@ npm run setup
 # build & watch & start server
 npm start
 ```
+
+## 動作確認
+https://react-redux-saga-template.herokuapp.com/
